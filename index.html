@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Photo Editor - Daniel Tools</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>📸 Simple Photo Editor</h1>
+
+<input type="file" id="upload">
+
+<div class="controls">
+    Brightness
+    <input type="range" id="brightness" min="0" max="200" value="100">
+
+    Contrast
+    <input type="range" id="contrast" min="0" max="200" value="100">
+
+    <button onclick="download()">Download</button>
+</div>
+
+<canvas id="canvas"></canvas>
+
+<script src="script.js"></script>
+</body>
+</html>
